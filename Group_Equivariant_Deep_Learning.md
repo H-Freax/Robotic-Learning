@@ -1,4 +1,22 @@
 # Group Equivariant Deep Learning
+- [Group Equivariant Deep Learning](#group-equivariant-deep-learning)
+- [Lecture 1 - Regular group convolutions](#lecture-1---regular-group-convolutions)
+  - [Lecture 1.1 - Introduce](#lecture-11---introduce)
+    - [motivation: Geometric guarantees(invariance)](#motivation-geometric-guaranteesinvariance)
+    - [Geometric guarantees(equivariance)](#geometric-guaranteesequivariance)
+  - [Lecture 1.2 - Group Theory | The basics](#lecture-12---group-theory--the-basics)
+    - [Group Theory Basics](#group-theory-basics)
+    - [Translation group ($\\mathbb{R}^2, +$)](#translation-group-mathbbr2-)
+    - [Roto-translation group  $SE(2)$](#roto-translation-group--se2)
+    - [Roto-translation group  $SE(2)$](#roto-translation-group--se2-1)
+    - [Scale-translation group  $\\mathbb{R}^2 \\rtimes \\mathbb{R}^+$](#scale-translation-group--mathbbr2-rtimes-mathbbr)
+    - [Affine groups  $G = \\mathbb{R}^d \\rtimes H$](#affine-groups--g--mathbbrd-rtimes-h)
+    - [Representations](#representations)
+    - [Left-regular Representations](#left-regular-representations)
+    - [Group actions](#group-actions)
+    - [Equivariance](#equivariance)
+  - [Lecture 1.3 - Regular group convolutions | Template matching viewpoint](#lecture-13---regular-group-convolutions--template-matching-viewpoint)
+  - [](#)
 
 # Lecture 1 - Regular group convolutions
 
